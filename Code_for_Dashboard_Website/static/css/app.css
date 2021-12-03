@@ -1,0 +1,260 @@
+html,
+body {
+  background-color: #5a5858;
+  font-family: "Roboto", sans-serif;
+}
+
+/*add map formatting*/
+#mapid {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 8rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #fdfdfd;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #abc1ee;
+}
+
+h5 {
+  font-size: 1.5rem;
+  color: #e0e0f5;
+}
+
+.btn-primary {
+  background-color: #122da8;
+  border-color: #92a4af;
+  padding: 5px 30px;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #f8faf8 !important;
+  border-color: #66c4e0 !important;
+  color: #ffffff;
+}
+
+.title-underline {
+  border: 0;
+  height: 10px;
+  background: #333;
+  background-image: linear-gradient(to right, #fff, #41598d, #fff);
+  max-width: 350px;
+  margin-bottom: 80px;
+}
+
+.fragment {
+  padding: 75px 0;
+}
+
+.fragment-one {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fragment-one h1 {
+  margin: 0;
+}
+
+.fragment-one h3 {
+  margin: 0;
+}
+
+.fragment-one p,
+.fragment-two p {
+  margin-bottom: 0;
+}
+
+.fragment-one i {
+  margin-bottom: 30px;
+}
+
+.fragment-two {
+  background-color: #363636;
+  color: #d0d4f7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fragment-two h5 {
+  margin: 0;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.fragment-two p,
+.fragment-two i {
+  color: #f8f8f8;
+}
+
+.fragment-three {
+  background-color: #58585a;
+  color: #9cbaf3;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.fragment-two h6 {
+  margin: 0;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 100%;
+}
+
+.fragment-three .carousel {
+  max-width: 800px;
+}
+
+.fragment-three .carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fragment-three .carousel-caption {
+  color: #d1d9e0;
+}
+
+.fragment-three .custom-indicator {
+  background-color: #5c5959 !important;
+}
+
+.fragment-four {
+  background-color: #787879;
+  color: #ccd2d8;
+}
+
+.fragment-four i {
+  color: #40f812;
+}
+
+.fragment-four .labels {
+  color: #f5f5f5;
+  margin: 10px;
+  text-align: center;
+  min-width: 70%;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.fragment-four .tech {
+  padding: 0.8em;
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #eee;
+  font-size: 1.2rem;
+  margin: 0;
+}
+.fragment-four .tech:hover {
+  transition-duration: 0.3s;
+  background: rgba(255, 255, 255, 1);
+}
+
+.fragment-five {
+  background-color: #ccc8c4;
+  padding: 50px;
+  color: #d4d8dd;
+  text-align: center;
+}
+
+.fragment-five h5 {
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.fragment-five .credential {
+  color: #999;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.fragment-six {
+  padding: 20px;
+}
+
+.fragment-six h6 {
+  color: #bec9ce;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  /* letter-spacing: 2px; */
+}
+.fragment-six .social-icon {
+  color: #080808;
+  font-size: 1.2rem;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.fragment-six .copyright {
+  margin: 10px 0;
+  font-size: 0.8rem;
+}
+
+.carousel {
+  /* any dimensions are fine, it can be responsive with max-width */
+  width: 100%;
+  position: static;
+  left: 40px;
+  right: 40px;
+  /* height: 350px; */
+}
+
+.carousel-inner {
+  /* make sure your .items will get correct height */
+  height: 100%;
+  position: static;
+  left: 40px;
+  right: 40px;
+}
+
+.item {
+  background-size: cover;
+  /* background-position: 50% 50%; */
+  width: 100%;
+  height: 100%;
+  position: static;
+  left: 40px;
+  right: 40px;
+}
+
+.item img {
+  visibility: hidden;
+}
+
+/*add some frame for carousel*/
+.carousel .item img {
+  left: 50px; /*important */
+  right: 50px; /*important */
+  margin: 0; /*important */
+  max-width: fit-content; /*important */
+  min-width: fit-content;
+  position: static;
+}
+
